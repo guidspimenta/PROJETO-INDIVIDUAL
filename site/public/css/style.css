@@ -1,0 +1,210 @@
+body {
+   padding: 0;
+   margin: 0;
+    background-image: url(./imgs/background.png); 
+    align-items: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: large;
+    color: white;
+}
+
+ /* header */
+ 
+.header {
+  border-bottom: 3px solid blue;
+  background-color: #cc0000 ;
+  width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  
+}
+ 
+.divTitulo{
+  flex-direction: row;
+  display: flex;
+}
+
+.divTitulo .titulo{
+  margin-top: 20px;
+}
+
+.divTitulo .logo {
+  
+  background-image: url(./imgs/icone.png);
+  width: 200px;
+  height: 100px;
+  padding-bottom: 5px;
+  display: flex;
+}
+
+.header .container {
+  justify-content: space-between;
+}
+
+.header a {
+  text-decoration: none;
+  color:white;
+}
+
+
+.navbar {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  color: blue;
+}
+
+.agora {
+  font-weight: 800;
+}
+
+  /* --------------------------------------------------------------------------------------------- */
+
+
+
+  /* login */
+
+.card_login {
+  width: 500px;
+  height: 300px;
+  border: blue solid 5px ;
+  background-color: #cc0000;
+  margin-left: 30%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card_login .container_login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+button{
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+  width: 100px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: large;
+    margin-left: 35%;
+    cursor: pointer;
+}
+
+input {
+  border-radius: 20px;
+  height: 20px;
+  width: 200px;
+  padding-left: 10px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: large;
+  align-items: center;
+}
+ 
+/* cadastro  */
+
+.container-cadastro {
+  border: 5px solid blue;
+  background-color: #cc0000;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 35%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  border-radius: 40px;
+  align-items: center;
+}
+
+.icone_teia {
+  position: absolute;
+  top: 90%;
+  right: 50%;
+  margin-right: 100px;
+
+}
+
+.icone_teia img {
+  width: 100px;
+}
+
+
+
+
+/* -------------- */
+
+
+/* dash */
+
+.body_dash{
+  background-color:#cc0000;
+  background-image: none;
+  color: white;
+}
+
+/* ------------- */
+
+/* comunidade */
+.header-left {
+  border-bottom: blue solid 2px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  color: white;
+  background-color: #cc0000;
+}
+
+.dash-right {
+  border-right: blue solid 3px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  padding-left: 50px;
+  height: 100%;
+  margin-top: 2%;
+  }
+  .div-form {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-right: 40%;
+    align-items: center;
+    margin-bottom: 30px;
+    
+    }
+    textarea {
+      width: 400px;
+      height: 200px;
+    }
+
+  .div-results {
+    float: right;
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+  }
+/* ------------- */
