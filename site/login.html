@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./imgs/icones/iconejanela.png" />
+</head>
+<body>
+<!-- header -->
+
+    <div class="header">
+      <div class="container">
+
+        <div class="divTitulo">
+        <span class="logo"></span><span class="titulo"><h2>Spider-fans</h2></span>
+        
+       </div>
+             <ul class="navbar">
+                <li>
+                 <a href="./index.html">Inicial</a>
+                </li>
+
+                <li class="agora">
+                    <a href="./login.html">Login</a>
+                </li>
+
+                <li>
+                    <a href="./cadastro.html">Cadastro</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+   <!-- ------------------------------------  -->
+
+           <!-- tela de login -->
+
+    <div class="card_login">
+
+        <!-- teste -->
+        <div class="container_login">
+                  <h1>Entrar</h1>
+              <form class="form_login">
+                <span>E-mail</span>
+                <label for="emailInput"></label>
+                <input class="input_login" type="text" id="emailInput" /> <br> <br>
+                <span>Senha</span>
+                <label for="senhaInput"></label>
+                <input class="input_login" type="password" id="senhaInput" />
+                <small id="erro"></small> <br>
+                <br />
+                <div class="button_login" id="button-container">
+                  <button onclick="entrar()" id="entra" type="button" >
+                    Entrar
+                  </button>
+                  <div class="icone_teia">
+                    <img src="./imgs/teia.png" alt="" />
+                  </div>
+                </div>
+              </form>
+              
+       </div>
+    </div>   
+
+</body>
+</html>

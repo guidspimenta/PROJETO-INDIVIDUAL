@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./imgs/icones/iconejanela.png" />
+</head>
+<body>
+   <!-- header -->
+
+   <div class="header">
+    <div class="container">
+
+      <div class="divTitulo">
+      <span class="logo"></span><span class="titulo"><h2>Spider-fans</h2></span>
+      
+     </div>
+           <ul class="navbar">
+              <li>
+               <a href="./index.html">Inicial</a>
+              </li>
+
+              <li>
+                  <a href="./login.html">Login</a>
+              </li>
+
+              <li class="agora">
+                  <a href="./cadastro.html">Cadastro</a>
+              </li>
+
+          </ul>
+      </div>
+  </div>
+ <!-- ------------------------------------  -->
+
+<!-- cadastro -->
+<div class="container-cadastro">
+      <h2>
+        Cadastre-se
+      </h2>
+      <form action="" class="form-cadastro-usuario">
+        <label for="nome_contato_usuario">Nome do usuário</label><br>
+        <input type="text" id="nome_contato_usuario" />
+        <small id="validacao_nome"> </small><br><br>
+
+        <label for="email_cadastro_usuario">Insira o e-mail</label><br>
+        <input type="email" id="email_cadastro_usuario" />
+        <small id="validacao_email"> </small><br><br>
+
+        <label for="senha_cadastro_usuario">Insira a senha</label><br>
+        <input type="password" id="senha_cadastro_usuario" />
+        <small id="validacao_senha"> </small><br><br>
+
+        <label for="senha_cadastro_usuario">Confirme a senha</label><br>
+        <input type="password" id="senha_cadastro_usuario" />
+        <small id="validacao_senha"> </small><br><br>
+      </form>
+      <button onclick="cadastrar_usuario()" class="cadastrarUsuario">Cadastrar</button>
+      <div class="icone_teia">
+      <img src="./imgs/teia.png" alt="" />
+    </div>
+  </div>
+<!-- ------------------------------------  -->
+</body>
+</html>
